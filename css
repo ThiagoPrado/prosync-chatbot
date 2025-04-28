@@ -1,0 +1,128 @@
+/* Reset Básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+header .logo img {
+    max-width: 150px;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+}
+
+header nav ul li {
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.cta-button {
+    background-color: #f2a900;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.cta-button:hover {
+    background-color: #e89b00;
+}
+
+.hero {
+    background: #f4f4f4;
+    padding: 60px 0;
+    text-align: center;
+}
+
+.beneficios {
+    padding: 60px 0;
+    background-color: #fff;
+}
+
+.benefit {
+    display: inline-block;
+    width: 30%;
+    padding: 10px;
+    text-align: center;
+}
+
+.benefit img {
+    width: 50px;
+}
+
+.step {
+    margin: 20px 0;
+}
+
+.testimonials {
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 0;
+}
+
+.testimonial {
+    width: 45%;
+    padding: 20px;
+    background: #f9f9f9;
+    border-radius: 10px;
+}
+
+.pricing-table {
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 0;
+}
+
+.pricing-card {
+    width: 30%;
+    background: #f9f9f9;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer .social-links {
+    margin-top: 10px;
+}
+
+footer .social-links a {
+    margin: 0 10px;
+    color: #fff;
+    text-decoration: none;
+}
+
+footer .social-links a:hover {
+    color: #f2a900;
+}
